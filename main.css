@@ -1,0 +1,81 @@
+body{
+    font-family: Mukta Malar, sans-serif;
+    font-size: 14px;
+}
+
+i {
+    font-size: 20px;
+}
+
+.navbar{
+    background-color:#004966;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #091534;
+    color: #FD3A0F;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-menu .nav-link.active {
+    background-color:#004966 ;
+    color: #f4f2f8;
+}
+
+.navbar-toggler{
+    background-color:#004966 ;
+}
+
+.section-title {
+    font-family: Cinzel, cursive;
+}
+
+.section-title span{
+ color:#FD3A0F;   
+}
+
+#sobre-o-hotel, #check-in{
+background-color: #f4f2f8;
+}
+
+.text-colored{
+    color:#FD3A0F; 
+}
+
+.nav-menu .nav-link.active {
+    background-color:#091534;
+    color: #FD3A0F;
+}
+
+.nav-menu .nav-link:hover {
+    color: #FD3A0F;
+}
+
+.col-md-3 img {
+    width: 100px;
+    height: 140px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+#fale-conosco button{
+    background-color: #FD3A0F;
+    color: #f4f2f8;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
